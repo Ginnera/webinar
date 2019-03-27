@@ -157,3 +157,66 @@ header .logo {
 	text-align: center;
 	background-color: #f8f8f8;
 }
+
+.form h2 {
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+
+.form form {
+	display: inline-block;
+	width: 50%;
+}
+
+.form form input,
+.form form textarea {
+	width: 100%;
+	font-size: 18px;
+	color: #000;
+	border: 2px solid #ffa8a8;
+	border-radius: 15px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.form form input {
+	height: 42px;
+}
+
+.form form textarea {
+	height: 200px;
+	padding-top: 10px;
+	resize: none;
+}
+
+.btn {
+	display: inline-block;
+	height: 42px;
+	font-size: 18px;
+	padding: 10px 10%;
+	border: none;
+	border-radius: 15px;
+	text-transform: uppercase;
+	background-image: linear-gradient(to right, #ffa8a8 0%, #fcff00 50%, #ffa8a8 100%);
+	-webkit-background-size: 100% auto;
+	background-size: 200% auto;
+	transition: all 1s;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-position: right center;
+}
+
+/*  end form */
+
+/*  start footer */
+
+footer {
+	display: flex;
+	height: 100px;
+	text-transform: uppercase;
+	background-color: #ffa8a8;
+	justify-content: center;
+	align-items: center;
+}
